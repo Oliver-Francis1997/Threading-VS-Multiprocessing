@@ -8,8 +8,8 @@ A collection of python scripts that use Threading and Multiprocessing
 > This group of scripts attempts to show the use cases of theading and multiprocessing by finding prime numbers using thread and process pools. However the timed results show that neither method improved the time to complete in my testing. My thought was that the threading would be the slowest of the three tests as the function was CPU dependent not I/O dependent. For some reason the slowest was the multiprocessing might just be my PC or I need to rework my code.
 #### TODO
 > - Add args for easier testing
-> - Learn why I'm getting unexpected results and adapt the tests
-> - Clean up imports
+> - <s>Learn why I'm getting unexpected results and adapt the tests</s>DONE
+> - <s>Clean up imports</s> DONE!
 ### Webspider that uses Threading and Multiprocessing
 #### TODO
 > - Come up with a good name
