@@ -9,3 +9,8 @@ A collection of python scripts that use Threading and Multiprocessing
 #### TODO
 > - Add args for easier testing
 > - Learn why I'm getting unexpected results and adapt the tests
+### Webspider that uses Threading and Multiprocessing
+#### TODO
+> - Come up with a good name
+> - Write the program
+> - Create logic that swaps between the requests and Selenium Modules dependent on 200 codes
