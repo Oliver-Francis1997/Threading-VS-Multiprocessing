@@ -1,6 +1,5 @@
-from concurrent.futures import *
-from os import cpu_count
-from time import *
+from multiprocessing import Pool
+from time import perf_counter
 
 def PrimeCheck(x):
     if x > 1:
@@ -11,9 +10,10 @@ def PrimeCheck(x):
     return False
 
 def ProcessVer(maxNum):
-    with ProcessPoolExecutor(max_workers=cpu_count()) as e:
+    # If processes is None then the number returned by os.cpu_count() is used.
+    with Pool() as p:
         l = list(range(1,maxNum+1))
-        results = e.map(PrimeCheck, l)
+        results = p.map(PrimeCheck, l)
         return sum(results)
 
 def main():

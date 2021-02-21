@@ -1,6 +1,6 @@
-from concurrent.futures import *
+from concurrent.futures import ThreadPoolExecutor
 from os import cpu_count
-from time import *
+from time import perf_counter
 
 def PrimeCheck(x):
     if x > 1:
