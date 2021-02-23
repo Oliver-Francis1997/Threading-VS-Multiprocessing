@@ -13,6 +13,7 @@ ___
 > - Add args for easier testing
 > - <s>Learn why I'm getting unexpected results and adapt the tests</s> DONE!
 > - <s>Clean up imports</s> DONE!
+> - Attempt to combine mutiprocessing and threading 
 ### Webspider that uses Threading and Multiprocessing
 #### TODO
 > - Come up with a good name

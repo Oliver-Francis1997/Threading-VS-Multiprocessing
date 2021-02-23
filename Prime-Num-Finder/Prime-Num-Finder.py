@@ -1,4 +1,4 @@
-from time import *
+from time import perf_counter
 
 
 def PrimeCheck(x):
